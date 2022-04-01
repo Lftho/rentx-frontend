@@ -1,0 +1,25 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+
+  padding: 15px;
+  background-color: #1B1B1F;
+  width: 100%;
+  font-weight: 600;
+
+  main {
+    display: flex;
+
+    div {
+      color: #fff;
+
+      span {
+        color: #DC1637;
+      }
+    }
+  }
+}
+
+
