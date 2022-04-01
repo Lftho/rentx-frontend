@@ -1,0 +1,32 @@
+.container {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+
+  header {
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    height: 80px;
+    width: 95.25%;
+    border: 1px solid transparent;
+
+    main {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 20px auto;
+      max-width: 1200px;
+
+      .perfil {
+        a {
+          display: flex;
+          align-items: center;
+          > span {
+            font-size: 16px;
+            padding: 0px 5px;
+          }
+        }
+      }
+    }
+  }
+}
